@@ -72,7 +72,11 @@ class SSO
    * @return Object User
    */
   public static function getUser() {
-    
+      $details = phpCAS::getAttributes();
+      // Create new user object, initially empty.
+      $user = new \stdClass();
+      $user->profile = phpCAS::getUser();
+      return $user;
   }
   // ----------------------------------------------------------
   // Manual Installation Stuff
