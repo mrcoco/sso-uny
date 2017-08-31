@@ -1,6 +1,7 @@
 {
   "name": "mrcoco/sso-uny",
   "type": "library",
+  "version": "0.0.1",
   "description": "Utility library for authentication with SSO-UNY",
   "keywords": ["authentication"],
   "homepage": "http://github.com/mrcoco/sso-uny",
