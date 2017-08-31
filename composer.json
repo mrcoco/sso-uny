@@ -1,0 +1,22 @@
+{
+  "name": "mrcoco/sso-uny",
+  "type": "library",
+  "description": "Utility library for authentication with SSO-UI",
+  "keywords": ["authentication"],
+  "homepage": "http://github.com/mrcoco/sso-uny",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dwi Agus Purwanto",
+      "email": "dwiagus@cempakaweb.com",
+      "homepage": "http://cempakaweb.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3",
+    "jasig/phpcas": "*"
+  },
+  "autoload": {
+    "psr-4": { "SSO": "src"}
+  }
+}
