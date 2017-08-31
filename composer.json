@@ -17,6 +17,6 @@
     "jasig/phpcas": "*"
   },
   "autoload": {
-    "psr-4": { "SSO": "src"}
+    "psr-4": { "SSO\\": "src"}
   }
 }
