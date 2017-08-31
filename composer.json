@@ -1,7 +1,7 @@
 {
   "name": "mrcoco/sso-uny",
   "type": "library",
-  "description": "Utility library for authentication with SSO-UI",
+  "description": "Utility library for authentication with SSO-UNY",
   "keywords": ["authentication"],
   "homepage": "http://github.com/mrcoco/sso-uny",
   "license": "MIT",
