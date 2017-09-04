@@ -10,7 +10,7 @@ define('CAS_SERVER_HOST', 'sso.uny.id');
 /**
  * CAS server uri
  */
-define('CAS_SERVER_URI', '/cas2');
+define('CAS_SERVER_URI', '');
 /**
  * CAS server port
  */
@@ -18,7 +18,7 @@ define('CAS_SERVER_PORT', 443);
 // ------------------------------------------------------------------------
 //  CAS Initialization
 // ------------------------------------------------------------------------
-// ONLY DO THIS IF phpCAS EXISTS (i.e. installing via Composer). Thanks to Fariskhi for noticing the bug.
+// ONLY DO THIS IF phpCAS EXISTS (i.e. installing via Composer).
 if (class_exists('phpCAS')) {
   /**
    * Create phpCAS client
