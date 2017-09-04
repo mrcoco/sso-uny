@@ -6,7 +6,7 @@ use phpCAS;
 /**
  * CAS server host address
  */
-define('CAS_SERVER_HOST', 'sso.uny.id');
+define('CAS_SERVER_HOST', 'sso.uny.ac.id');
 /**
  * CAS server uri
  */
