@@ -64,7 +64,8 @@ class SSO
     if ($url === '')
       phpCAS::logout();
     else
-      phpCAS::logout(['url' => $url]);
+      //phpCAS::logout(['url' => $url]);
+      phpCAS::logoutWithRedirectService($url);
   }
   /**
    * Returns the authenticated user.
